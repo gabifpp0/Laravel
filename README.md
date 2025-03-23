@@ -1,6 +1,6 @@
 # PHP - Laravel
 
- Inicio ao estudo da linguagem PHP e desenvolvimento web com laravel
+ Inicio ao estudo da linguagem PHP e desenvolvimento web com Laravel
 
 ## Básico da linguagem
 
@@ -115,6 +115,5 @@ class Pessoa{
 $pessoa = new Pessoa('Gabrielle', '20');
 
 $pessoa->printNomeEIdade();
-
 
 ```
