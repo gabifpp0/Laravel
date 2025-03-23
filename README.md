@@ -8,6 +8,8 @@
 
 ## Sintaxe
 
+Declarando variáveis
+
 ```php
 
 $oi = 'oi'
