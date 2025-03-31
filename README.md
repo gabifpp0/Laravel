@@ -3,7 +3,7 @@
  Inicio ao estudo da linguagem PHP e desenvolvimento web com Laravel
 
 ## Básico do Framework
-    A linguagem usa a arquitetura MVC. O controller gerencia os modelos(Lógica de negócios e gerenciador do banco de dados) e as views(Interface gráfica e exibição de dados).
+A linguagem usa a arquitetura MVC. O controller gerencia os modelos(Lógica de negócios e gerenciador do banco de dados) e as views(Interface gráfica e exibição de dados).
 
     Model --> app/models
     View --> resources/views/.blade.php
