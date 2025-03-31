@@ -5,7 +5,7 @@
 ## Básico da linguagem
 
 ## Configurações
-
+ 
 ## Sintaxe
 
 Declarando variáveis
