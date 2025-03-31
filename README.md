@@ -2,11 +2,26 @@
 
  Inicio ao estudo da linguagem PHP e desenvolvimento web com Laravel
 
-## Básico da linguagem
+## Básico do Framework
+    A linguagem usa a arquitetura MVC. O controller gerencia os modelos(Lógica de negócios e gerenciador do banco de dados) e as views(Interface gráfica e exibição de dados).
+
+    Model --> app/models
+    View --> resources/views/.blade.php
+    Controller --> app/Http/Controllers
 
 ## Configurações
- 
-## Sintaxe
+    PHP 8.2
+    Composer 
+
+    Criação do projeto 
+    compose create-project laravel/laravel nome do projeto
+
+    Rodando o projeto
+    php atisan key:generate
+    php artisan serve
+
+Extensões --> php -m 
+## Sintaxe do PHP
 
 Declarando variáveis
 
