@@ -14,11 +14,11 @@ A linguagem usa a arquitetura MVC. O controller gerencia os modelos(Lógica de n
     Composer 
 
 Criação do projeto 
-    compose create-project laravel/laravel nome do projeto
+- compose create-project laravel/laravel nome do projeto
 
 Rodando o projeto
-    php atisan key:generate
-    php artisan serve
+- php atisan key:generate
+- php artisan serve
 
 Extensões --> php -m 
 ## Sintaxe do PHP
