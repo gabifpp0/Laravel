@@ -13,10 +13,10 @@ A linguagem usa a arquitetura MVC. O controller gerencia os modelos(Lógica de n
     PHP 8.2
     Composer 
 
-    Criação do projeto 
+Criação do projeto 
     compose create-project laravel/laravel nome do projeto
 
-    Rodando o projeto
+Rodando o projeto
     php atisan key:generate
     php artisan serve
 
