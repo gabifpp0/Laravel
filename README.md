@@ -16,6 +16,9 @@ A linguagem usa a arquitetura MVC. O controller gerencia os modelos(Lógica de n
 Criação do projeto 
 - compose create-project laravel/laravel nome do projeto
 
+Salvando alterações no banco de dados
+- php artisan migrate
+
 Rodando o projeto
 - php atisan key:generate
 - php artisan serve
