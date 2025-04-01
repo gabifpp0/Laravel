@@ -24,8 +24,12 @@ Rodando o projeto
 - php artisan serve
 
 Extensões --> php -m 
-## Sintaxe do PHP
 
+Rotas
+    routes/web.php
+   
+## Sintaxe do PHP
+ 
 Declarando variáveis
 
 ```php
