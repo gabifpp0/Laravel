@@ -26,7 +26,11 @@ Rodando o projeto
 Extensões --> php -m 
 
 Rotas
-    routes/web.php
+```php
+
+routes/web.php
+
+```
    
 ## Sintaxe do PHP
  
