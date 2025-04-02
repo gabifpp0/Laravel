@@ -6,7 +6,7 @@
 A linguagem usa a arquitetura MVC. O controller gerencia os modelos(Lógica de negócios e gerenciador do banco de dados) e as views(Interface gráfica e exibição de dados).
 
     Model --> app/models
-    View --> resources/views/.blade.php
+    View --> resources/views/
     Controller --> app/Http/Controllers
 
 ## Configurações

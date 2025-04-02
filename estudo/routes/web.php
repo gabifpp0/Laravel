@@ -6,9 +6,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/empresa', function() {
-    return view('empresa');
+// Grupo de rotas
+Route::group([
+    'prefix' => 'admin',
+    'as' => 'admin.'
+], function(){
+
+    Route::get('dashboard', function(){
+        return "dashboard";
+    })->name('dashboard');
+
+    Route::get('users', function(){
+        return "users";
+    })->name('users');
 });
+
+Route::view('/empresa', 'empresa');
 
 Route::any('/any', function() {
     return "Permite todo tipo de acesso http (put, delete, get, post)";
@@ -23,3 +36,11 @@ Route::get('/produto/{id}', function($id) {
 });
 
 Route::redirect('/sobre', '/empresa');
+
+Route::get('/news', function() {
+    return view('news');
+})->name('noticias');
+
+Route::get('/novidades', function() {
+    return redirect()->route('noticias');
+});
