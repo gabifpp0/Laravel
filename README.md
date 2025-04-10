@@ -143,3 +143,13 @@ $pessoa = new Pessoa('Gabrielle', '20');
 $pessoa->printNomeEIdade();
 
 ```
+
+## Docker e ambientes
+
+    docker-compose up -d --> "Levantar" as aplicações
+
+    docker ps --> Detalhar todos os processos
+
+# env
+
+# sail 
