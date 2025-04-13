@@ -3,7 +3,7 @@
  Inicio ao estudo da linguagem PHP e desenvolvimento web com Laravel
 
 ## Básico do Framework
-A linguagem usa a arquitetura MVC. O controller gerencia os modelos(Lógica de negócios e gerenciador do banco de dados) e as views(Interface gráfica e exibição de dados).
+O framework usa a arquitetura MVC. O controller gerencia os modelos(Lógica de negócios e gerenciador do banco de dados) e as views(Interface gráfica e exibição de dados).
 
     Model --> app/models
     View --> resources/views/
@@ -150,6 +150,51 @@ $pessoa->printNomeEIdade();
 
     docker ps --> Detalhar todos os processos
 
+### Sail 
+
+(Tem que ser executado no bash do WSL)
+
+Instalando
+
+```php
+
+php artisan sail:install
+
+```
+
+Construindo o container
+
+```php
+
+./vendor/bin/sail up
+
+```
+Ativando
+```php
+
+./vendor/bin/sail up -d
+
+```
+Desativando
+```php
+
+./vendor/bin/sail down
+
+```
+
+Migrate
+```php
+
+./vendor/bin/sail artisan migrate
+
+```
+
+Alias
+```php
+
+alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+
+```
+
 # env
 
-# sail 
